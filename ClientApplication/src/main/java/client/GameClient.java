@@ -15,7 +15,7 @@ public class GameClient {
     public static void main(String[] args){
         try{
             Socket socket = new Socket(serverAddress, PORT);
-            BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            new ServerCommunicationThread(socket).start();
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
             Scanner scan = new Scanner(System.in);
 
@@ -26,9 +26,6 @@ public class GameClient {
                 }
 
                 out.println(request);
-
-                String response = in.readLine();
-                System.out.println(response);
             }
         }
         catch (UnknownHostException e){

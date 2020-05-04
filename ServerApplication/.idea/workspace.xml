@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5753052-a33c-4b57-82c8-ad632d0db9a4" name="Default Changelist" comment="" />
+    <list default="true" id="a5753052-a33c-4b57-82c8-ad632d0db9a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApplication/src/main/java/client/GameClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApplication/src/main/java/client/GameClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApplication/target/classes/client/GameClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApplication/target/classes/client/GameClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ClientThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/GameServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/GameServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/ClientThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/ClientThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/GameServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/GameServer.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,9 +37,22 @@
     </option>
   </component>
   <component name="ProjectId" id="1b5y7u6R4r1AqoDI0wtkBsvIMON" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/src/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,11 +86,27 @@
       <option name="presentableId" value="Default" />
       <updated>1587936084669</updated>
       <workItem from="1587936088291" duration="71000" />
-      <workItem from="1587936197050" duration="5116000" />
+      <workItem from="1587936197050" duration="5401000" />
+      <workItem from="1588000263692" duration="1409000" />
+      <workItem from="1588541978385" duration="7380000" />
+      <workItem from="1588591254466" duration="3225000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

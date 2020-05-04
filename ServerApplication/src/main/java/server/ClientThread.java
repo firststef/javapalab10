@@ -1,5 +1,7 @@
 package server;
 
+import game.GameController;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -10,10 +12,12 @@ import java.net.Socket;
 public class ClientThread extends Thread{
     private Socket socket = null;
     private ServerSocket server = null;
+    private GameController gameController = null;
 
-    public ClientThread (Socket socket, ServerSocket server) {
+    ClientThread (Socket socket, ServerSocket server, GameController gameController) {
         this.socket = socket;
         this.server = server;
+        this.gameController = gameController;
     }
 
     public void run(){
@@ -23,6 +27,8 @@ public class ClientThread extends Thread{
 
             while (true) {
                 String request = in.readLine();
+                System.out.println("Server received the request " + request);
+                out.println("Server received the request " + request);
 
                 if (request.equals("stop")) {
                     server.close();
@@ -30,8 +36,7 @@ public class ClientThread extends Thread{
                     return;
                 }
 
-                System.out.println("Server received the request " + request);
-                out.println("Server received the request " + request);
+                gameController.solveRequest(request, socket);
             }
         }
         catch (IOException e){

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23b85a3c-1344-4cc2-a14f-4d4159859dc7" name="Default Changelist" comment="" />
+    <list default="true" id="23b85a3c-1344-4cc2-a14f-4d4159859dc7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ServerApplication/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/GameClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/GameClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/GameClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/GameClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerApplication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerApplication/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerApplication/src/main/java/server/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerApplication/src/main/java/server/ClientThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerApplication/src/main/java/server/GameServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerApplication/src/main/java/server/GameServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerApplication/target/classes/server/ClientThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerApplication/target/classes/server/ClientThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerApplication/target/classes/server/GameServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerApplication/target/classes/server/GameServer.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +37,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1b5yTjH3yrHXsjoiiSInLY9Lx3H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -39,14 +54,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.1">
+    <configuration name="1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="client.GameClient" />
       <module name="ClientApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="client.GameClient" />
+      <module name="ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.1" />
+      <item itemvalue="Application.2" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -58,11 +84,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587936258731</updated>
-      <workItem from="1587936262147" duration="2034000" />
+      <workItem from="1587936262147" duration="2363000" />
+      <workItem from="1588000270689" duration="1720000" />
+      <workItem from="1588541976698" duration="2559000" />
+      <workItem from="1588593344183" duration="1137000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
