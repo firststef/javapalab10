@@ -20,7 +20,7 @@ public class Game {
     private String name;
 
     private int currentTurn = 1;
-    private int turnNumber;
+    private int turnNumber = 0;
     private boolean gameEnded = false;
 
     Game(String name, Socket s1){
@@ -53,7 +53,7 @@ public class Game {
                 currentTurn = 2;
                 turnNumber++;
                 board.setAt((int)Math.floor(Math.random() * 19), (int)Math.floor(Math.random() * 19),'W');
-                if (turnNumber == 2){
+                if (turnNumber >= 2){
                     gameEnded = true;
 
                     uploadFile();
@@ -62,7 +62,6 @@ public class Game {
             }
             else if (socket == socket2 && currentTurn == 2){
                 currentTurn = 1;
-                turnNumber++;
                 board.setAt((int)Math.floor(Math.random() * 19), (int)Math.floor(Math.random() * 19),'B');
                 return new Pair<>("Accepted move", "Other player has moved " + move);
             }
@@ -86,6 +85,7 @@ public class Game {
 
     private void uploadFile(){
         try{
+            System.out.println("Connecting to server");
             String password = new String(Files.readAllBytes(Paths.get("password.txt")), StandardCharsets.UTF_8);
             String html = "<!doctype html><head><title>Board</title></head><body>" +
                     board.toString().replaceAll("\n", "<br>") + "</body>";
